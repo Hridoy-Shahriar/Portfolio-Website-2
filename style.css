@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+}
+
+/* header styles  */
+
+header {
+  margin-bottom: 100px;
+}
+
+/* nav styles  */
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 200px;
+}
+
+header nav h5 {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 37.333px;
+  font-weight: 800;
+}
+header nav button {
+  padding: 22.667px 32px;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 26px;
+  font-weight: 600;
+  border-radius: 10.667px;
+  border: 1.333px solid #0d1321;
+  opacity: 0.8;
+  background-color: transparent;
+}
+header nav button:hover {
+  opacity: 1;
+  background-color: #0d1321;
+  color: #ffffff;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* hero section styles */
+
+#hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./assets/Hero-bg.png");
+  height: 869.333px;
+}
+#hero-section h1 {
+  color: #0d1321;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 90.667px; /* 141.667% */
+  margin: 42px 0 32px 0;
+  width: 1330.667px;
+}
+#hero-section p {
+  color: #0d1321;
+  text-align: center;
+  font-size: 21.333px;
+  line-height: 34.667px; /* 162.5% */
+  width: 1136px;
+  margin-bottom: 42px;
+}
+
+#hero-section button {
+  padding: 22.667px 32px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 26px;
+  font-weight: 600;
+  border-radius: 10.667px;
+  border: none;
+  background-color: #0d1321;
+}
+#hero-section button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* main styles */
+
+main {
+  margin: 0 200px;
+}
+
+#why-web-development {
+  padding: 106.667px 129.333px;
+  border-radius: 21.333px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+#why-web-development > h1 {
+  color: #0d1321;
+  text-align: center;
+  font-size: 42.667px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+
+#why-web-development > p {
+  color: #0d1321;
+  text-align: center;
+  font-size: 21.333px;
+  line-height: 34.667px; /* 162.5% */
+  opacity: 0.7;
+  margin-bottom: 64px;
+}
+
+.wwd-details {
+  display: flex;
+  gap: 140px;
+  align-items: center;
+  padding: 64px;
+  border-radius: 21.333px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.wwd-details img {
+  width: 346.084px;
+  height: 289.349px;
+}
+.wwd-details img[src="assets/coding-2.png"] {
+  width: 320px;
+  height: 320px;
+}
+.wwd-details-info {
+  max-width: 636px;
+}
+.wwd-details-info h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+}
+.wwd-details-info p {
+  color: #0d1321;
+  font-size: 21.333px;
+  line-height: 34.667px; /* 162.5% */
+  margin-bottom: 42.67px;
+}
+.wwd-details-info button {
+  color: #0d1321;
+  text-align: center;
+  font-size: 26.667px;
+  font-weight: 600;
+  border: 1.333px solid #0d1321;
+  opacity: 0.7;
+  padding: 16px 26.667px;
+  background: none;
+}
+
+.wwd-details-middle {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  padding: 64px;
+  border-radius: 21.333px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.wwd-details-middle img {
+  width: 297.6px;
+  height: 278.471px;
+}
+.wwb-margin {
+  margin-bottom: 42.67px;
+}
